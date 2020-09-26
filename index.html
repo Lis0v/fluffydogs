@@ -5,14 +5,12 @@ Fluffy Dogs
 </title>
 </head>
     
+    <div id="foo"></div>
     <script>
      function myFunction() {
 
 var piesek = Math.floor(Math.random() * 10) + 1;
- document.getElementById("piesek").innerHTML = piesek; 
-         var img = document.createElement("img");
-    img.src = getElementById("piesek").jpg;
-         document.body.appendChild(img);
+ document.getElementById('foo').innerHTML = '<img src="' + Math.floor(Math.random() * 10) + 1 + '.jpg" id="imageBox"/>';
  }
 </script>
 
